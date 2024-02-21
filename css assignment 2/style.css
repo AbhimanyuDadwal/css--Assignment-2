@@ -1,0 +1,109 @@
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #000;
+    background-image: url(audio-1851517_1280.jpg);
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+   background-color: rgb(7, 19, 12);
+}
+
+.header {
+    background: linear-gradient(to right, #800080, #FFC0CB);
+    color: rgb(65, 26, 26);
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+.verse {
+    line-height: 1.8em;
+    color: #555;
+    font-size: 1.1em;
+}
+
+.one, .two, .three, .four {
+    margin: 20px 0;
+    padding: 20px;
+    background: #E9ECEF; 
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.one {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #e6e6fa; 
+    color: white; 
+    border: 2px solid #212427; 
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background-image: url('r3.jpg'); 
+    background-position-x: right;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    
+    background-position: center; 
+}
+
+
+    .two {
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #faf0e6; 
+        color: #ea3605; 
+        border: 2px solid #007BFF; 
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        background-image: url('one\ div.jpg'); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+    }
+    
+        .three {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #1ea5a5; 
+            color: #212427; 
+            border: 2px solid #cfd4d9; 
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            background-image: url(one\ div.jpg);
+            background-position: center;
+            
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+        
+        .four {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #ffe4e1; 
+            color: white; 
+            border: 2px solid #007BFF; 
+            border-radius: 4px;
+            transition: all 0.3s ease;
+            background-image: url('OIP\ \(3\).jpg'); 
+            background-size: cover; 
+            background-repeat: no-repeat; 
+        }
+        
+
+
+
+.one:hover, .two:hover, .three:hover, .four:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
